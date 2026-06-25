@@ -1,0 +1,66 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node",
+"class": "ConveyorSegment",
+"language": "GDScript",
+"path": "res://scripts/conveyor_segment.gd"
+}, {
+"base": "Node",
+"class": "FlowField",
+"language": "GDScript",
+"path": "res://scripts/flow_field.gd"
+}, {
+"base": "Node",
+"class": "Grid",
+"language": "GDScript",
+"path": "res://scripts/grid.gd"
+}, {
+"base": "Node",
+"class": "PersistenceManager",
+"language": "GDScript",
+"path": "res://scripts/persistence_manager.gd"
+}, {
+"base": "Node",
+"class": "SwarmAgent",
+"language": "GDScript",
+"path": "res://scripts/swarm_agent.gd"
+}, {
+"base": "Node",
+"class": "TickEngine",
+"language": "GDScript",
+"path": "res://scripts/tick_engine.gd"
+}, {
+"base": "Node",
+"class": "TurretController",
+"language": "GDScript",
+"path": "res://scripts/turret_controller.gd"
+}, {
+"base": "Node",
+"class": "WorldState",
+"language": "GDScript",
+"path": "res://scripts/world_state.gd"
+} ]
+_global_script_class_icons={
+"ConveyorSegment": "",
+"FlowField": "",
+"Grid": "",
+"PersistenceManager": "",
+"SwarmAgent": "",
+"TickEngine": "",
+"TurretController": "",
+"WorldState": ""
+}
+
+[application]
+
+config/name="Antigravity Clone"
+name="antigravity_clone"
