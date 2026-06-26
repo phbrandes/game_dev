@@ -10,6 +10,7 @@ Run headless tests with:
 ```bash
 # Use `godot` or `godot4` depending on your installation
 godot --headless -s tests/test_tick_engine.gd
+godot --headless -s tests/test_world_state.gd
 ```
 
 Files added:
@@ -19,5 +20,6 @@ Files added:
 - `scripts/tick_engine.gd` — deterministic tick engine (logic-only)
 - `scripts/grid.gd` — grid data model
 - `scripts/conveyor_segment.gd` — minimal conveyor placeholder
-- `tests/test_tick_engine.gd` — headless test runner
+- `tests/test_tick_engine.gd` — tick-engine headless test runner
+- `tests/test_world_state.gd` — world-state, flow-field, swarm, and turret test runner
 
