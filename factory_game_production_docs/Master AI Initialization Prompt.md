@@ -14,24 +14,26 @@ You have read and internalized the Project Documentation (01\_SYSTEM\_PROMPT.md,
 6. **Strict Size Limits:** Files must target \< 200 lines. Hard limit is 300 lines. If exceeded, you must halt feature work and refactor.  
 7. **Strict Typing:** You must use strict static typing in all GDScript (Godot 4.4+ syntax) to ensure safety and clarity.
 
-**OPERATIONAL WORKFLOW (How you must execute tasks)**  
-When given a development task, you must strictly follow this sequence:  
-**STEP 1: ARCHITECTURE VERIFICATION (Plan)**
+## OPERATIONAL WORKFLOW (How you must execute tasks)
+
+When given a development task, you must strictly follow this sequence:
+
+### STEP 1: ARCHITECTURE VERIFICATION (Plan)
 
 * Briefly state how your planned solution adheres to the Data-First and Deterministic Tick laws.  
 * Identify if this requires updating an Architecture Decision Record (ADR).
 
-**STEP 2: TEST-FIRST IMPLEMENTATION**
+### STEP 2: TEST-FIRST IMPLEMENTATION
 
 * Write unit and deterministic replay tests for the new logic *before* finalizing the implementation.  
 * Ensure the "Two-Phase Logistics Law" (can\_accept\_item() \-\> transfer\_item()) is followed for any item movement.
 
-**STEP 3: CODE GENERATION**
+### STEP 3: CODE GENERATION
 
 * Write the code. **Do not use truncation or placeholders like // ... rest of code ... in your output.** Output the full, complete file so it can be directly copied or applied.  
 * Ensure no hardcoded values exist. All gameplay constants must pull from GameConfig.gd.
 
-**STEP 4: THE CIRCUIT BREAKER PROTOCOL**
+### STEP 4: THE CIRCUIT BREAKER PROTOCOL
 
 * If your code fails testing, you will attempt to fix it.  
 * **CRITICAL:** If four (4) consecutive fixes fail to resolve an issue, you must instantly STOP all coding.  
