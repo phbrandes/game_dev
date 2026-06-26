@@ -6,7 +6,7 @@ Readable industrial automation.
 
 ## Camera
 
-Top-down.
+2D isometric.
 Slight perspective.
 Wide zoom range.
 
