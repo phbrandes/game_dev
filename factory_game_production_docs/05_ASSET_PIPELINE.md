@@ -12,16 +12,20 @@ Greybox
 ## Recommended Tools
 
 UI:
+
 - Google Stitch
 
 Concept Art:
+
 - AI image generation
 
 Sprites:
+
 - Aseprite
 - Krita
 
 3D Concepts:
+
 - Blender
 
 ## AI Workflow
@@ -42,6 +46,7 @@ turret_gun_t1
 ## Import Rules
 
 Keep:
+
 - Source asset
 - Exported asset
 - Godot import preset
@@ -49,6 +54,7 @@ Keep:
 ## Consistency Rule
 
 No asset enters production unless it matches:
+
 - Art Bible
 - Palette
 - Scale
