@@ -34,6 +34,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://scripts/swarm_agent.gd"
 }, {
+"base": "Object",
+"class": "TestCleanupHelper",
+"language": "GDScript",
+"path": "res://scripts/test_cleanup_helper.gd"
+}, {
 "base": "Node",
 "class": "TickEngine",
 "language": "GDScript",
@@ -55,6 +60,7 @@ _global_script_class_icons={
 "Grid": "",
 "PersistenceManager": "",
 "SwarmAgent": "",
+"TestCleanupHelper": "",
 "TickEngine": "",
 "TurretController": "",
 "WorldState": ""
