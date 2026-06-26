@@ -1,4 +1,5 @@
 # game_dev
+
 a repository for a indie game dev idea
 
 ## Godot scaffold
@@ -22,4 +23,3 @@ Files added:
 - `scripts/conveyor_segment.gd` — minimal conveyor placeholder
 - `tests/test_tick_engine.gd` — tick-engine headless test runner
 - `tests/test_world_state.gd` — world-state, flow-field, swarm, and turret test runner
-
